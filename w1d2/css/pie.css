@@ -1,0 +1,15 @@
+h3 {
+    background-color: #F0F0F0 ;
+    font-family: 'Lucida Sans Unicode', 'Helvetica','Arial','sans-serif';
+    text-align: left;
+    font-size: 18;
+    text-decoration: underline;
+}
+#first{
+    text-align: center;
+    font-size: 22pt;
+}
+p.comment{
+    text-indent: 0%;
+    background-color:#FFFFA8 ;
+}
