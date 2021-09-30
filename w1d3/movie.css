@@ -1,0 +1,47 @@
+body{
+    display: block;
+    margin: 9px;
+}
+#topbanner{
+    text-align: center;
+    background-image: url(../w1d3/images/banner.png);
+    background-repeat: repeat-x;
+}
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+  
+}
+
+.all{
+        display: flex;
+        flex-direction: row-reverse;
+        border-width: 4px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: gray;
+        margin: auto;
+        width: 800px;
+
+}
+#overview {
+    background-color: #A2B964;
+    width: 250px;
+    font-size: 8pt;
+    font-family: Arial,sans-serif;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+.rottenbanner {
+    background: url(rbg.png);
+    background-repeat: repeat-x;
+    width: 550px;
+    color: red;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: start;
+}
