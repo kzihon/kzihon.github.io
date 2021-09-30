@@ -21,6 +21,9 @@ h1{
     resize: both;
 
 }
+#overview{
+    float: left;
+}
 .rotten{
 width: 550px;
 font-weight: bold;
