@@ -1,11 +1,11 @@
-html {
-    background-image: url(background.png);
+body {
+    background-image: url("background.png");
     background-repeat:repeat;
 }
 
 #topbanner {
     text-align: center;
-    background-image: url(bannerbg.png);
+    background-image: url("bannerbg.png");
     background-repeat: repeat-x;
 }
 
@@ -30,7 +30,7 @@ h1{
     text-shadow:3px 3px #999999;
 }
 .rottenbanner{
-    background:url(rbg.png);
+    background:url("rbg.png");
     background-repeat:repeat-x;
     width:550px;
     color:red;
