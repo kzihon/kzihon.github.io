@@ -1,47 +1,79 @@
-body{
-    display: block;
-    margin: 9px;
+html {
+    background-image: url(background.png);
+    background-repeat:repeat;
 }
-#topbanner{
+
+#topbanner {
     text-align: center;
-    background-image: url(../w1d3/images/banner.png);
+    background-image: url(bannerbg.png);
     background-repeat: repeat-x;
 }
+
+
+
+.overall{
+    display:flex;
+    flex-direction:row-reverse;
+    border-width:4px;
+    border-radius:20px;
+    border-style:solid;
+    border-color:gray;
+    margin:auto;
+    width:800px;
+
+}
 h1{
-    text-align: center;
-    font-size: 24pt;
-    font-family: Tahoma, Verdana, sans-serif;
-    text-shadow: 3px 3px #999999;
-  
+    text-align:center;
+    font-size:24pt;
+    font-weight:bold;
+    font-family: Tahoma,Verdana,sans-serif;
+    text-shadow:3px 3px #999999;
+}
+.rottenbanner{
+    background:url(rbg.png);
+    background-repeat:repeat-x;
+    width:550px;
+    color:red;
+    font-size:48px;
+    font-weight:bold;
+    text-align:start;
+    
 }
 
-.all{
-        display: flex;
-        flex-direction: row-reverse;
-        border-width: 4px;
-        border-radius: 20px;
-        border-style: solid;
-        border-color: gray;
-        margin: auto;
-        width: 800px;
+#overview{
+background-color:#A2B964;
+width:250px;
+font-size:8pt;
+font-family:Arial,sans-serif;
+}
 
+.commentsection{
+    display:flex;
+    flex-direction:column;
 }
-#overview {
-    background-color: #A2B964;
-    width: 250px;
-    font-size: 8pt;
-    font-family: Arial,sans-serif;
-}
+
 .comment {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    font-size:8pt;
+    margin:20px;
 }
-.rottenbanner {
-    background: url(rbg.png);
-    background-repeat: repeat-x;
-    width: 550px;
-    color: red;
-    font-size: 48px;
-    font-weight: bold;
-    text-align: start;
+
+.commentbody {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: #E8DC9B;
+    padding: 8px;
+}
+
+dt{
+    font-weight:bold;
+}
+
+.pagenum {
+    background-color: #A2B964;
+    text-align:center;
 }
