@@ -1,28 +1,36 @@
 .grid-contener{
-    height: 1000px;
+    height: 800px;
     display: grid;
-    grid-template-rows: 150px 100px 400px 150px;
+   
 }
 .flux-container1{
     display: flex;
     
 }
 
+@media screen and (max-width:599px) {
+    .flex-container2{
+        display: inline;
+    }
+}
 .flux-container1{
     display: flex;
     background-color: tan;
 }
 #m1{
+    height: 100px;
     width: 70px;
     padding: 10px;
     font-size: 15px;
 }
 #m2{
+    height: 100px;
     width: 70px;
     padding: 10px;
     font-size: 15px;
 }
 #m3{
+    height: 100px;
     width: 70px;
     padding: 10px;
     font-size: 15px;
@@ -32,23 +40,28 @@
     
 }
 #c1{
+    height: 400px;
     width: 600px;
     background-color: grey;
 }
 #c2{
+    height: 400px;
     width: 720px;
     background-color:rgb(127, 129, 129);
 }
 #c3{
     width: 600px;
+    height: 400px;
     background-color: rgb(184, 187, 187);
 }
 #header{
+    height: 150px;
     text-align: center;
     font-size: 30px;
     background-color: slateblue;
 }
 #footer{
+    height: 150px;
     text-align: center;
     background-color: darkslategrey;
 }
