@@ -1,5 +1,5 @@
 .grid-contener{
-    height: 800px;
+    height: 1000px;
     display: grid;
     grid-template-rows: 150px 100px 400px 150px;
 }
@@ -7,13 +7,26 @@
     display: flex;
     
 }
-.m{
-    padding: 10px;
-    width: 50px;
-    font-size: 20px;
+
+.flux-container1{
+    display: flex;
+    background-color: tan;
 }
-
-
+#m1{
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+}
+#m2{
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+}
+#m3{
+    width: 70px;
+    padding: 10px;
+    font-size: 15px;
+}
 .flex-container2 {
     display: flex;
     
