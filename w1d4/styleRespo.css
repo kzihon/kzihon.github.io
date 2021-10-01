@@ -1,0 +1,37 @@
+.grid-contener{
+    height: 800px;
+    display: grid;
+    grid-template-rows: 150px 100px 400px 150px;
+}
+.flux-container1{
+    display: flex;
+    background-color: darkslategrey;
+}
+.flux-container1 >.m{
+    padding: 5px;
+    font-size: 15px;
+}
+.flex-container2 {
+    display: flex;
+    
+}
+#c1{
+    width: 600px;
+    background-color: grey;
+}
+#c2{
+    width: 720px;
+    background-color:rgb(127, 129, 129);
+}
+#c3{
+    width: 600px;
+    background-color: rgb(184, 187, 187);
+}
+#header{
+    text-align: center;
+    font-size: 30px;
+}
+#footer{
+    text-align: center;
+    background-color: darkslategrey;
+}
