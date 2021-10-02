@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas: "some text"
+                                  "some here there";
+        }
+        .left{
+            background-color: aqua;
+            grid-area: some;
+        }
+        .top{
+            background-color: blueviolet;
+            grid-area: text;
+
+        }
+        .bottoml{
+            background-color: brown;
+            grid-area: here;
+        }
+        .bottomr{
+            background-color: burlywood;
+            grid-area: there;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="left">some</div>
+    
+    <div class="top">text</div>
+
+    <div class="bottoml">here</div>
+
+    <div class="bottomr">there</div>
+</body>
+</html>
