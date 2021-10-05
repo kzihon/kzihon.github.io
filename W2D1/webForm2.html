@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-info">
+           <a class="navbar-brand" style="color:white;font-size:xx-large">MUM Golden DOME MARKET:::SRM System</a>
+           <a href="#" class="" style="color:white;font-size:larger;">Products</a>
+           <a href="#" class="" style="color:white;font-size:larger">Suppliers</a>
+           <form class="form-inline">
+            <span class="mr-4" style="color:white;font-size:larger">Hello</span>
+            <button class="btn btn-light" type="button">Sign Out</button>
+           </form>
+        </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <h2>New Product Form</h2>
+        </div>
+        
+        <br>
+    
+    <form>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="txtPdt">Product Number</label>
+                    <input type="text" class="form-control" id="txtPdt">
+                </div> 
+                <div class="form-group">
+                    <label for="txtName">Name</label>
+                    <input type="text" class="form-control" id="txtName">
+                </div>
+                <div class="form-group">
+                    <label for="txtPrice">Unit Price</label>
+                    <input type="text" class="form-control" id="txtPrice"placeholder="0.0">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="txtQuantity">Quantity in Stock</label>
+                    <input type="text" class="form-control" id="txtQuantity" placeholder=""0">
+                </div> 
+                <div class="form-group">
+                    <label for="ddlSupplier">Supplier</label>
+                    <select class="form-control" id="txtSupplier">
+                        <option>Select a Supplier</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="txtDate">Date Supplied</label>
+                    <input type="text" class="form-control" id="txtDate" placeholder="yyyy-mm-dd">
+                    <small>Enter a valid date</small>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    
+     <div style="float: right">
+        
+            <button class="btn btn-outline-primary" type="button">Reset</button>
+            <button class="btn btn-outline-warning" type="button">Cancel</button>
+            <button id ="addbtn" class="btn btn-outline-info" type="button">Add Product</button>
+        
+        </div>
+    
+        <script type="text/javascript" src="datevalid.js"></script>
+</body>
+</html>
