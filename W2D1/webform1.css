@@ -1,0 +1,45 @@
+body{
+    font-size: x-large;
+}
+form{
+width: 100%;
+height: 100%; 
+margin-left: 40px; 
+margin-top: 50px;
+}
+
+#btn{
+   background-color:blue;
+   width:100px;
+   height:50px;
+   font-weight: bold;
+   font-size: large;
+   border-radius: 8px;
+   color:white;
+
+}
+
+#email{
+    width:90%;
+    height:50px;
+    border-radius: 8px;
+    font-size: large;
+    
+}
+#password{
+    width:90%;
+    height:50px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+#website{
+    width:90%;
+    height:50px;
+    border-radius: 8px;
+    font-size: large;
+}
+
+#privacy{
+    opacity: 0.5;
+}
