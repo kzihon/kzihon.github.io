@@ -23,7 +23,7 @@ describe ("getBalance", function(){
 
 describe ("toString", function(){
     it("returns the representation of the account", function(){
-        assert.equal(accA.toString(),"Account ABCDE: balance 5000");
+        assert.equal(accA.toString(),"Account 111111: balance 5000");
     }
     )
 });
