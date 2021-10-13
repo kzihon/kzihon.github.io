@@ -1,0 +1,22 @@
+#controlers{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90%;
+    margin-top: 20%;
+}
+#start{
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+}
+.container{
+    display: inline;
+}
+#circ{
+    margin-left: 25%;
+    margin-top: -10%;
+}
+#circle{
+    position:absolute;
+}
