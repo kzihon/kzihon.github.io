@@ -1,0 +1,16 @@
+<%- include('header.ejs')%>
+<h4 class="title mt-2 mb-2 p-3">
+    Product List
+</h4>
+    <% for(let product of productList){ %>
+        <div>Product Name:  <%=product.name%></div>
+        <div>Product Discription: <%=product.description%></div>
+        <div>
+        <form action="/addToCart" method="POST">
+            <input type="hidden" name="productId" value="<%=product.id%>">
+            <input type="submit" name="cart"
+            value="Add to Cart">
+        </form>
+    </div>
+        <% } %>
+        <%- include('footer.ejs')%>
