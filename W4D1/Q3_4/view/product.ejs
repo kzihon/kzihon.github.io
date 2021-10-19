@@ -1,0 +1,11 @@
+<%- include('header.ejs')%>
+<body>
+    <p>Product Name: <%=product.getName()%></p>
+    <p>Product Price: <%=product.getPrice()%></p>
+    <p>Product Description: <%= product.getdescr() %> </p>
+    <form method="POST" action="/addToCart">
+        <input type="hidden" name=name value="<%=product.getName()%>">
+        <input type="submit" value="Add to Cart">
+    </form>
+
+<%- include('footer.ejs') %>

@@ -1,0 +1,19 @@
+<%- include('header.ejs')%>
+<ul>
+    <% for(let i=0; i<products.length; i++) {
+        %> 
+            <%product=products[i];%>
+            <li>
+                <label><%=product.getName()%>
+                    <a href="/products/<%=product.getName()%>">View Product</a>
+                </label>
+                <ul>
+                    <li><%=product.getPrice()%></li>
+                    <li><%=product.getdescr()%></li>
+                </ul>
+            </li>
+        <%    
+    }
+    %>
+</ul>
+<%- include('footer.ejs') %>
