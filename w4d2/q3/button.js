@@ -1,0 +1,9 @@
+$(function(){
+    $("button").click(function(){
+        $.get(`computers?id=${id}`).done(function(x){
+            $("#cpu").text(x.cpu);
+            $("#ram").text(x.ram);
+            $("#storag").text(x.storage);
+        });
+    });
+});
